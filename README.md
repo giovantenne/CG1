@@ -1,7 +1,7 @@
 # zTicker
 Configurable WiFi real time cryptocurrencies ticker 
 
-https://www.etsy.com/shop/CryptoGadgets
+https://www.cryptogadgets.net/
 
 ## Firmware releases
 
