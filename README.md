@@ -5,5 +5,5 @@ https://www.cryptogadgets.net/
 
 ## Firmware releases
 
-https://github.com/zener79/CG1/releases
+https://github.com/giovantenne/CG1/releases
 
