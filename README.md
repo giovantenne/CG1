@@ -1,6 +1,7 @@
 # CryptoGadgets v1
 
-This is a **free and open source project** that let you check the bitcoin price in real time with a small piece of hardware. Unless similar devices this one uses WebSockets and updates the display real-time, several time per second!
+This is a **free and open source project** that let you check the bitcoin price in real time with a small piece of hardware. 
+Unless similar devices this one uses WebSockets and updates the display real-time, several time per second!
 
 I first created these objects for myself, playing with 3D modeling and ESP32 software development.
 
@@ -13,7 +14,7 @@ https://github.com/giovantenne/CG1/assets/917400/3fa1b79c-759e-4132-b921-984ed2b
 - True real-time price
 - Display up to 9 digits
 - Adjustable display brightness
-- 24H price change
+- 24h price change
 - Support for more than 600 pairs
 - Upgradable firmware
 
