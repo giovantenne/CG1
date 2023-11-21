@@ -2,7 +2,7 @@
 
 This is a **free and open source project** that let you check the bitcoin price in real time with a small piece of hardware.
 
-Unless similar devices this one uses WebSockets and updates the display real-time, several time per second!
+Unlike similar devices this one uses WebSockets and updates the display real-time, several time per second!
 
 I first created these objects for myself, playing with 3D modeling and ESP32 software development.
 
