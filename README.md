@@ -44,8 +44,13 @@ You can check the firmware version you are currently running  by simply  looking
 - Heltec WiFi Kit 32
 - 3D BOX [here](stl/)
 
+## Build and load the firmware
+- Install PlatformIO Core (https://platformio.org/install/cli)
+- Connect the board via USB
+- Run `pio run -t upload`
+
 ## Donations/Project contributions
-If you would like to contribute and help dev team with this project you can send a donation to the following LN address ⚡cryptogadgets@walletofsatoshi.com⚡
+If you would like to contribute and help dev team with this project you can send a donation to the following LN address ⚡`donate@btcpay.cryptogadgets.net`⚡ or on-chain   `bc1qg2t8vnahzv5yy7e885l0a59ggagne9nxdvts4t`
 
 If you want to order a fully assembled multipurpose V2 or V3 devices you can contribute to my job at https://www.cryptogadgets.net
 
