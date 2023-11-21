@@ -2,13 +2,12 @@
 #include <AutoConnect.h>
 #include <Arduino.h>
 #include <heltec.h>
-#include "logo.h"
 #include <WebSocketsClient.h>
+#include "logo.h"
 #include "utils.h"
 
 String defaultsSymbol = "btcusdt";
 int defaultCoinPrecision = 2;
-
 String zticker_version = "v2.00";
 
 #define EEPROM_SIZE 128
@@ -40,7 +39,6 @@ ACText(credits, "<hr>Follow me on Twitter: <a href='https://twitter.com/CryptoGa
 ACSubmit(save1, "Yes, reset the device", "/delconnexecute");
 AutoConnectAux aux1("/delconn", "Reset", true, {caption1, save1});
 AutoConnectAux aux1Execute("/delconnexecute", "Wifi reset", false);
-
 String initialize2(AutoConnectAux&, PageArgument&);
 ACText(caption2, "");
 ACInput(input1, "", "Binance symbol (eg. BTCUSDT)", "", "BTCUSDT");
@@ -244,7 +242,6 @@ void deleteAllCredentials(void) {
   AutoConnectCredential credential;
   station_config_t config;
   uint8_t ent = credential.entries();
-
   Serial.println("Delete all credentials");
   while (ent--) {
     credential.load((int8_t)0, &config);
@@ -278,7 +275,6 @@ void setDefaultValues() {
   EEPROM.commit();
   delay(3000);
 }
-
 
 String formatStringToFloat(String s, short precision){
   separatorPosition = s.indexOf('.');

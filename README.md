@@ -1,6 +1,7 @@
 # CryptoGadgets v1
 
-This is a **free and open source project** that let you check the bitcoin price in real time with a small piece of hardware. 
+This is a **free and open source project** that let you check the bitcoin price in real time with a small piece of hardware.
+
 Unless similar devices this one uses WebSockets and updates the display real-time, several time per second!
 
 I first created these objects for myself, playing with 3D modeling and ESP32 software development.
@@ -27,13 +28,13 @@ This is a stand-alone device. This means that you don’t need a PC  to get it r
 - Your phone/computer should prompt you with a login/welcome page. If not you can simply browse to the following address: http://172.217.28.1. You should then be able to see and access the device setup interface.
 - On the menu click “Configure new AP”. You should then be presented with a list of existing WiFi networks.
 - Click on your network SSID name, enter your passphrase and click “Apply”.
-- Enjoy :-)
+
 
 After the first setup, may  you want to change your currency pair, adjust the number of decimal digits or change the display brightness, you can simply browse to the address shown on the display during the booting process after the logo. Before doing so, please ensure  to be connected to the same WiFi network.
 
 You also can easily update the device firmware by downloading the latest version, if needed, from the following link: https://github.com/giovantenne/CG1/releases
 
-You can check the firmware version you are currently running  by simply  looking at the display during the booting process, below the bitcoin logo. Based on the tips received, I will keep releasing new versions with any necessary bug fixes and improvements.
+You can check the firmware version you are currently running  by simply  looking at the display during the booting process, below the bitcoin logo.
 
 
 ## Setup video tutorial
@@ -44,7 +45,7 @@ You can check the firmware version you are currently running  by simply  looking
 - 3D BOX [here](stl/)
 
 ## Donations/Project contributions
-If you would like to contribute and help dev team with this project you can send a donation to the following LN address ⚡cryptogadgets@walletofsatoshi.com⚡ 
+If you would like to contribute and help dev team with this project you can send a donation to the following LN address ⚡cryptogadgets@walletofsatoshi.com⚡
 
 If you want to order a fully assembled multipurpose V2 or V3 devices you can contribute to my job at https://www.cryptogadgets.net
 
