@@ -313,7 +313,7 @@ String httpGETRequest(const char* serverName) {
 bool checkCoin(String testSymbol) {
   hideWsDisconnected = true;
   testSymbol.toUpperCase();
-  String serverPath = "https://data.binance.com/api/v3/avgPrice?symbol=" + testSymbol;
+  String serverPath = "https://data-api.binance.vision/api/v3/avgPrice?symbol=" + testSymbol;
   String payload = httpGETRequest(serverPath.c_str());
   Serial.println(payload);
   StaticJsonDocument<1024> myObject;
