@@ -8,7 +8,7 @@
 
 String defaultsSymbol = "btcusdt";
 int defaultCoinPrecision = 2;
-String zticker_version = "v1.20";
+String zticker_version = "v1.21";
 
 #define EEPROM_SIZE 128
 
